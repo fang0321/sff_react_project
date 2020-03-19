@@ -1,3 +1,3 @@
-import {ADD_PERSON} from '../action_types'
+import {SAVE_PERSON} from '../action_types'
 
-export const createAddPersonAction = (personObj) => ({type:ADD_PERSON,data:personObj})
+export const createPerson = personObj => ({type:SAVE_PERSON,data:personObj})
